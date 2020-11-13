@@ -34,6 +34,10 @@ Running tests
 
        $ pytest
 
+3. For added fun, watch your tests running with
+
+       $ pytest --headful
+
 
 Creating tests
 --------------
