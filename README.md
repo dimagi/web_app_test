@@ -2,13 +2,13 @@ Web App Test
 ============
 
 This is a proof of concept to see whether we can use Microsoft
-Playwright as a robust way to test an CommCare app via Web Apps.
+Playwright as a robust way to test a CommCare app via Web Apps.
 
 
 Installation
 ------------
 
-1. Create a virtual environment
+1. Create a virtual environment. (Playwright requires Python 3.7+.)
 
        $ mkvirtualenv -p python3.8 web_app_test
 
@@ -27,12 +27,12 @@ Running tests
 1. Start your local CommCare HQ instance in a separate Terminal window.
    (Your method is sure to be different from mine.)
 
-      $ workon cchq36
-      $ cchq-tmux
+       $ workon cchq36
+       $ cchq-tmux
 
 2. Run tests
 
-    $ pytest
+       $ pytest
 
 
 Creating tests
